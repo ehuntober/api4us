@@ -8,7 +8,7 @@ from books.models import Book
 from .serializers import BookSerializer 
 
 
-class BookAPIView(generics.ListAPIView):
+class BookAPIViews(generics.ListAPIView):
     queryset = Book.objects.all()
     serializer_class = BookSerializer
     
