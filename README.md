@@ -2,7 +2,7 @@
 a mini library API built with django rest_framework
 
 
-#how to run locally
+# how to run locally
 
 ** Clone the repo
 ** Create a virtualenv
